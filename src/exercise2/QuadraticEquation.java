@@ -9,12 +9,12 @@ public class QuadraticEquation {
     //System.out.print("Enter a number for a:");
 
     Scanner B = new Scanner(System.in);
-    double b = B.nextInt();
+    double b = B.newInt();
     //System.out.print("Enter a number for b:");
 
     Scanner C = new Scanner(System.in);
     //System.out.print("Enter a number for c:");
-    double c = C.nextInt();
+    double c = C.newInt();
 
     if (a != 0) {
       double D = Math.sqrt( (b * b) - 4 * a * c );
