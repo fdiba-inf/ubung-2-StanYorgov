@@ -4,17 +4,10 @@ import java.util.Scanner;
 
 public class QuadraticEquation {
   public static void main(String[] args) {
-    Scanner A = new Scanner(System.in);
-    double a = A.nextInt();
-    //System.out.print("Enter a number for a:");
-
-    Scanner B = new Scanner(System.in);
-    double b = B.newInt();
-    //System.out.print("Enter a number for b:");
-
-    Scanner C = new Scanner(System.in);
-    //System.out.print("Enter a number for c:");
-    double c = C.newInt();
+    Scanner input = new Scanner(System.in);
+    double a = input.nextInt();
+    double b = input.nextInt();
+    double c = input.nextInt();
 
     if (a != 0) {
       double D = Math.sqrt( (b * b) - 4 * a * c );
