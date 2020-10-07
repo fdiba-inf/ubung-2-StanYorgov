@@ -15,8 +15,7 @@ public class QuadraticEquation {
       if (D >= 0) {
        double x1 = ( (-b - D) / 2 * a );
        double x2 = ( (-b + D) / 2 * a );
-       System.out.println("x1= " + x1);
-       System.out.println("x2= " + x2);
+       System.out.println(x1 + ", " + x2);
 
       } else {
         System.out.println("Imaginary values");
