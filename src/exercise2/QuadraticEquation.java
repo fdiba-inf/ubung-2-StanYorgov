@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class QuadraticEquation {
   public static void main(String[] args) {
     Scanner A = new Scanner(System.in);
-    System.out.print("Enter a number for a:");
     int a = A.nextInt();
+    //System.out.print("Enter a number for a:");
 
     Scanner B = new Scanner(System.in);
-    System.out.print("Enter a number for b:");
     int b = B.nextInt();
+    //System.out.print("Enter a number for b:");
 
     Scanner C = new Scanner(System.in);
-    System.out.print("Enter a number for c:");
+    //System.out.print("Enter a number for c:");
     int c = C.nextInt();
 
     if (a != 0) {
