@@ -17,11 +17,11 @@ public class QuadraticEquation {
     int c = C.nextInt();
 
     if (a != 0) {
-      double D = Math.sqrt( (b * b) - 4 * a * c );
+      int D = Math.sqrt( (b * b) - 4 * a * c );
 
       if (D >= 0) {
-       double x1 = ( (-b - D) / 2 * a );
-       double x2 = ( (-b + D) / 2 * a );
+       int x1 = ( (-b - D) / 2 * a );
+       int x2 = ( (-b + D) / 2 * a );
        System.out.println("x1= " + x1);
        System.out.println("x2= " + x2);
 
@@ -30,7 +30,7 @@ public class QuadraticEquation {
       } 
 
     } else  if (b != 0) {
-      double x = -(c / b);
+      int x = -(c / b);
       System.out.println("x= " + x);
 
     } else {

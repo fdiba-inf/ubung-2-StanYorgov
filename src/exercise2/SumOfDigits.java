@@ -14,7 +14,7 @@ public class SumOfDigits {
       int digit3 = (number / 100) % 10;
       int Sum = digit1 + digit2 + digit3;
 
-      System.out.println("Sum of didgits: " + Sum);
+      System.out.println("Sum of digits: " + Sum);
 
   }
 
